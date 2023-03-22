@@ -30,7 +30,7 @@ int main()
     
     avg=(float) sum/m;
 
-    printf("\n%.0f",avg);
+    printf("\n%.0f",avg);  //"%.0f" is used as the average salary in the output for the test case given in this question (46940 in this case) does not contain any decimal value
     printf("\n%d",max);
     printf("\n%d",min);
     
