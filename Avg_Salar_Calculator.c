@@ -1,4 +1,5 @@
 //C program to find the average salary of a group of people and the highest and the lowest salary among them
+
 #include <stdio.h>
 
 int main() {
