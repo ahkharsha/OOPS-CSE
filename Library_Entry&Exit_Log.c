@@ -39,7 +39,7 @@ int Exit_Library(int n,int g,int h)
 
 int main()
 {
-    int x,In_Count_Person=0,Out_Count_Person=0,Available_Person=0;
+    int x,In_Count_Person=0,Out_Count_Person=0;
     printf("\nSelect an option:\n1. Enter the library\n2. Exit the library\n3. Display count of people\n4. Exit the program\nEnter your choice: ");
     scanf("%d",&x);
     
