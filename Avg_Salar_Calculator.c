@@ -4,13 +4,11 @@
 
 int main() {
     int m,i,sal;
-    printf("\nEnter the number of people: ");
     scanf("%d",&m);
     
     int sal_arr[m];
     for (i=0;i<m;i++)
     {
-        printf("\nEnter the salary of member %d: ",i+1);
         scanf("%d",&sal);
         sal_arr[i]=sal;
     }
