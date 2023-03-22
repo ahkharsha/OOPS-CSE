@@ -1,4 +1,5 @@
 //C program to find in person count, out person count and available person in a library
+
 #include <stdio.h>
 
 int Enter_Library(int n,int g,int h)
@@ -35,8 +36,6 @@ int Exit_Library(int n,int g,int h)
             break;
     }
 }
-
-
 
 int main()
 {
