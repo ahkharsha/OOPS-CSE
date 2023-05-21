@@ -17,7 +17,7 @@ public:
     void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            cout<<"Deposited "<<amount<<" rupees into Account No. "<<accountNumber<<endl;
+            cout<<"Deposited $"<<amount<<" into Account No. "<<accountNumber<<endl;
         } else {
             cout<<"Invalid deposit amount. Amount must be positive."<<endl;
         }
@@ -26,7 +26,7 @@ public:
     void withdraw(double amount) {
         if (amount>0&&amount<=balance) {
             balance-=amount;
-            cout<<"Withdrew "<<amount<<" rupees from account "<<accountNumber<< endl;
+            cout<<"Withdrew $"<<amount<<" from account "<<accountNumber<< endl;
         } else {
             cout<<"Insufficient funds or invalid withdrawal amount."<<endl;
         }
